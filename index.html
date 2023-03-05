@@ -5,632 +5,829 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coffee Shop</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- bootstrap links -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <!-- bootstrap links -->
-  <!-- fonts links -->
+  <title>Tourly - Travel agancy</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-  <!-- fonts links -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-  <!-- this is icons link -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
 </head>
 
-<body>
-  <div class="all-content">
-    <!-- navbar start -->
+<body id="top">
 
+  <!-- 
+    - #HEADER
+  -->
 
-    <nav class="navbar navbar-expand-lg" id="navbar">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#" id="logo"><img src="./images/logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#tentang">tentang</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#menu">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#product">produk</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#gallary">gallary</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">kontak</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#blogs">Blog</a>
-            </li>
+  <header class="header" data-header>
 
+    <div class="overlay" data-overlay></div>
 
-
-
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Cari</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-
-    <!-- navbar end -->
-
-
-
-
-
-
-
-
-    <!-- Beran section start -->
-    <section id="Beran">
-      <div class="content">
-        <h3>mulai harimu dengan <br> Fresh Coffee</h3>
-        <p>mulai hari cerahmu dengna secangkir kopi
-          <br>pesan kopi terbaik di tempat kami
-        </p>
-        <button id="btn">Pesan Sekarang</button>
-      </div>
-    </section>
-    <!-- Beran section end -->
-
-
-
-
-
-
-
-    <!-- tentang section start -->
-    <section id="tentang">
+    <div class="header-top">
       <div class="container">
-        <div class="heading">tentang <span>kami</span></div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card">
-              <img src="./images/tentang.png" alt="">
-            </div>
+
+        <a href="tel:+01123456790" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
           </div>
 
-          <div class="col-md-6">
-            <h3>Apa saja Yang Spesial?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente delectus voluptatum est
-              ipsa, vero quibusdam quos veniam sequi quae Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Optio, est?
-              <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iusto voluptatum eligendi nisi
-              consectetur suscipit modi ab, incidunt totam adipisci.
-              <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iusto voluptatum eligendi nisi
-              consectetur suscipit modi ab, incidunt totam adipisci.
-            </p>
-            <button id="tentang-btn">pelajari selengkapnya.</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- tentang section end -->
+          <div class="wrapper">
+            <p class="helpline-title">untuk pertanyaan lanjut :</p>
 
-
-
-
-
-
-
-
-    <!-- top card start -->
-    <section id="top-cards">
-      <div class="heading2">Top <span>kategori</span></div>
-      <div class="container">
-        <div class="row">
-
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/c1.png" alt="">
-            </div>
+            <p class="helpline-number">+6289-9999-999</p>
           </div>
 
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/c2.png" alt="">
-            </div>
-          </div>
+        </a>
 
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/c3.png" alt="">
-            </div>
-          </div>
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" alt="Tourly logo">
+        </a>
 
-        </div>
-      </div>
-    </section>
-    <!-- top card end -->
+        <div class="header-btn-group">
 
+          <button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button>
 
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
 
-
-
-
-
-
-
-
-
-    <!-- menu start -->
-    <section id="menu">
-      <div class="container">
-        <div class="heading3">Menu</div>
-      </div>
-
-      <div class="container" id="container2">
-
-        <div class="row">
-
-          <div class="col-md-3 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/m1.png" alt="">
-
-              <div class="card-body">
-                <div class="star text-center">
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                </div>
-
-                <h3>Coffee</h3>
-                <p>Rp 999 <strike>Rp 9100</strike> <span class="fa-solid fa-cart-shopping"></span></p>
-
-              </div>
-
-            </div>
-          </div>
-          <div class="col-md-3 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/m2.png" alt="">
-
-              <div class="card-body">
-                <div class="star text-center">
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                </div>
-
-                <h3>Coffee</h3>
-                <p>Rp 999 <strike>Rp 9110</strike> <span class="fa-solid fa-cart-shopping"></span></p>
-
-              </div>
-
-            </div>
-          </div>
-          <div class="col-md-3 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/m3.png" alt="">
-
-              <div class="card-body">
-                <div class="star text-center">
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                </div>
-
-                <h3>Coffee</h3>
-                <p>Rp 9100 <strike>Rp 9200</strike> <span class="fa-solid fa-cart-shopping"></span></p>
-
-              </div>
-
-            </div>
-          </div>
-          <div class="col-md-3 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/m4.png" alt="">
-
-              <div class="card-body">
-                <div class="star text-center">
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                </div>
-
-                <h3>Coffee</h3>
-                <p>Rp 9120 <strike>Rp 9150</strike> <span class="fa-solid fa-cart-shopping"></span></p>
-
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-
-
-
-
-
-        <div class="row" style="margin-top: 30px;">
-
-          <div class="col-md-3 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/m5.png" alt="">
-
-              <div class="card-body">
-                <div class="star text-center">
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                </div>
-
-                <h3>Coffee</h3>
-                <p>Rp 9200 <strike>Rp 9300</strike> <span class="fa-solid fa-cart-shopping"></span></p>
-
-              </div>
-
-            </div>
-          </div>
-          <div class="col-md-3 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/m6.png" alt="">
-
-              <div class="card-body">
-                <div class="star text-center">
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                </div>
-
-                <h3>Coffee</h3>
-                <p>Rp 930 <strike>Rp 950</strike> <span class="fa-solid fa-cart-shopping"></span></p>
-
-              </div>
-
-            </div>
-          </div>
-          <div class="col-md-3 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/m7.png" alt="">
-
-              <div class="card-body">
-                <div class="star text-center">
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                </div>
-
-                <h3>Coffee</h3>
-                <p>Rp 9100 <strike>Rp 9200</strike> <span class="fa-solid fa-cart-shopping"></span></p>
-
-              </div>
-
-            </div>
-          </div>
-          <div class="col-md-3 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/m8.png" alt="">
-
-              <div class="card-body">
-                <div class="star text-center">
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                </div>
-
-                <h3>Coffee</h3>
-                <p>Rp 9130 <strike>Rp 9160</strike> <span class="fa-solid fa-cart-shopping"></span></p>
-
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-
-
-      </div>
-    </section>
-    <!-- menu end -->
-
-
-
-
-
-
-
-
-
-
-    <!-- product section start -->
-    <section id="product">
-      <div class="container">
-        <div class="heading4">Products</div>
-      </div>
-
-      <div class="container" id="container3">
-        <div class="row">
-          <div class="col-md-3 py-3 py-3">
-            <div class="card">
-              <img src="./images/arabica coffee.png" alt="">
-              <div class="card-body">
-                <h3>Arabic Coffee</h3>
-                <p>Rp 9120 <strike>Rp 9150</strike> <span class="fa-solid fa-cart-shopping"></span></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 py-3 py-3">
-            <div class="card">
-              <img src="./images/Cappuccino coffee.png" alt="">
-              <div class="card-body">
-                <h3>Cappuccino Coffee</h3>
-                <p>Rp 9250 <strike>Rp 9350</strike> <span class="fa-solid fa-cart-shopping"></span></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 py-3 py-3">
-            <div class="card">
-              <img src="./images/Black Coffee.png" alt="">
-              <div class="card-body">
-                <h3>Black Coffee</h3>
-                <p>Rp 9130 <strike>Rp 9200</strike> <span class="fa-solid fa-cart-shopping"></span></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 py-3 py-3">
-            <div class="card">
-              <img src="./images/Decaf caffee.png" alt="">
-              <div class="card-body">
-                <h3>Decaf Coffee</h3>
-                <p>Rp 9100 <strike>Rp 9120</strike> <span class="fa-solid fa-cart-shopping"></span></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- product section end -->
-
-
-
-
-
-
-
-
-
-    <!-- our gallary start -->
-    <div class="container" id="gallary">
-      <div class="heading5"> Our <span>Gallary</span></div>
-
-      <div class="row" style="margin-top: 30px;">
-
-        <div class="col-md-4 py-3 py-md-0">
-          <div class="card">
-            <img src="./images/image1.png" alt="">
-          </div>
-        </div>
-        <div class="col-md-4 py-3 py-md-0">
-          <div class="card">
-            <img src="./images/image2.png" alt="">
-          </div>
-        </div>
-        <div class="col-md-4 py-3 py-md-0">
-          <div class="card">
-            <img src="./images/image3.png" alt="">
-          </div>
-        </div>
-
-      </div>
-
-      <div class="row" style="margin-top: 30px;">
-
-        <div class="col-md-4 py-3 py-md-0">
-          <div class="card">
-            <img src="./images/image4.png" alt="">
-          </div>
-        </div>
-        <div class="col-md-4 py-3 py-md-0">
-          <div class="card">
-            <img src="./images/image5.png" alt="">
-          </div>
-        </div>
-        <div class="col-md-4 py-3 py-md-0">
-          <div class="card">
-            <img src="./images/image6.png" alt="">
-          </div>
         </div>
 
       </div>
     </div>
-    <!-- our gallary end -->
 
-
-
-
-
-
-
-
-
-
-    <!-- contact start -->
-    <section id="contact">
+    <div class="header-bottom">
       <div class="container">
-        <div class="row">
 
-          <div class="col-md-7">
-            <div class="heading6">kontak <span>Kami</span></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, sapiente
-              <br>ipsum dolor sit amet consectetur.
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo-blue.svg" alt="Tourly logo">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>beranda</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>tentang</a>
+            </li>
+
+            <li>
+              <a href="#destination" class="navbar-link" data-nav-link>tujuan</a>
+            </li>
+
+            <li>
+              <a href="#package" class="navbar-link" data-nav-link>paket</a>
+            </li>
+
+            <li>
+              <a href="#gallery" class="navbar-link" data-nav-link>galeri</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>kontak kami</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <button class="btn btn-primary">pesan sekarang</button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title">PERJALANAN MENJELAJAHI DUNIA </h2>
+
+          <p class="hero-text">
+            Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos
+            voluptatibus habitant?
+            Fames, vivamus minim nemo enim, gravida lobortis quasi, eum.
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-primary">selengkapnya</button>
+
+            <button class="btn btn-secondary">Pesan sekarang</button>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOUR SEARCH
+      -->
+
+      <section class="tour-search">
+        <div class="container">
+
+          <form action="" class="tour-search-form">
+
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">cari destinasi*</label>
+
+              <input type="text" name="destination" id="destination" required placeholder="masukan tujuan"
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="people" class="input-label">nomer pax*</label>
+
+              <input type="number" name="people" id="people" required placeholder="No pax" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">tanggal cekin</label>
+
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkout" class="input-label">tanggal Checkout</label>
+
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">tanyakan sekarang</button>
+
+          </form>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #POPULAR
+      -->
+
+      <section class="popular" id="destination">
+        <div class="container">
+
+          <p class="section-subtitle">temukan tempat</p>
+
+          <h2 class="h2 section-title">TUJUAN POPULER</h2>
+
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-1.jpg" alt="San miguel, italy" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Italy</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">San miguel</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Dubai</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Burj khalifa</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Japan</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Kuil Kyoto </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary">TUJUAN lainnya</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PACKAGE
+      -->
+
+      <section class="package" id="package">
+        <div class="container">
+
+          <p class="section-subtitle">PAKET POPULER</p>
+
+          <h2 class="h2 section-title">LIHAT PAKET KAMI</h2>
+
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p>
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">ALAMI LIBURAN HEBAT DI PANTAI</h3>
+
+                  <p class="card-text">
+                    Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                    cras, aspernatur.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Malaysia</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(25 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    Rp 3.5jt
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">pesan sekarang</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-2.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">LIBURAN MUSIM PANAS KE SUNGAI OXOLOTAN</h3>
+
+                  <p class="card-text">
+                    Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                    cras, aspernatur.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Malaysia</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(20 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    Rp 2.2jt
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">pesan sekarang</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-3.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">SANTORINI ISLAND'S WEEKEND VACATION</h3>
+
+                  <p class="card-text">
+                    Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                    cras, aspernatur.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Malaysia</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(40 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    Rp 3.2jt
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">pesan sekarang</button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary">View All Packages</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+
+          <p class="section-subtitle">Photo Gallery</p>
+
+          <h2 class="h2 section-title">FOTO DARI WISATAWAN</h2>
+
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p>
+
+          <ul class="gallery-list">
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-1.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-2.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-3.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-4.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-5.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">PANGGILAN UNTUK BERTINDAK</p>
+
+            <h2 class="h2 section-title">SIAP UNTUK PERJALANAN YANG TAK TERLUPAKAN. INGAT KAMI!</h2>
+
+            <p class="section-text">
+              Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque
+              laudantium. Sit ornare
+              mollitia tenetur, aptent.
             </p>
-            <input type="text" class="form-control" placeholder="Name" aria-label="default input example"><br>
-            <input type="email" class="form-control" placeholder="Email" aria-label="default input example"><br>
-            <input type="number" class="form-control" placeholder="Phone" aria-label="default input example"><br>
-            <button id="contact-btn">Send Message</button>
           </div>
 
-          <div class="col-md-5" id="col">
-            <h1>Info</h1>
-            <p><i class="fa-regular fa-envelope"></i>andika@gmail.com</p>
-            <p><i class="fa-solid fa-phone"></i>+620000000</p>
-            <p><i class="fa-solid fa-building-columns"></i>tanah hitam padang panjang</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita temporibus culpa error ea
-              praesentium.</p>
-          </div>
+          <button class="btn btn-secondary">kontak kami!</button>
 
         </div>
-      </div>
-    </section>
-    <!-- contact end -->
+      </section>
+
+    </article>
+  </main>
 
 
 
 
 
+  <!-- 
+    - #FOOTER
+  -->
 
+  <footer class="footer">
 
-
-
-
-
-    <!-- blogs start -->
-    <section id="blogs">
-      <div class="heading7">Latest <span>Blogs</span></div>
+    <div class="footer-top">
       <div class="container">
 
-        <div class="row">
+        <div class="footer-brand">
 
-          <div class="col-md-4 py-3 py-md-0">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="Tourly logo">
+          </a>
 
-            <div class="card">
-              <img src="./images/b1.png" alt="">
-              <div class="card-body">
-                <h3>Lorem, ipsum dolor.</h3>
-                <h5>rahmat andika</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsam sed quod, hic unde tempore cum!
-                  Qui necessitatibus ipsum nemo!</p>
-                <button id="blog-btn">Read More.</button>
-              </div>
-            </div>
+          <p class="footer-text">
+            Urna ratione ante harum provident, eleifend, vulputate molestiae proin fringilla, praesentium magna conubia
+            at
+            perferendis, pretium, aenean aut ultrices.
+          </p>
 
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
+        </div>
 
-            <div class="card">
-              <img src="./images/b2.png" alt="">
-              <div class="card-body">
-                <h3>Lorem, ipsum dolor.</h3>
-                <h5>syaid alfarishi</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsam sed quod, hic unde tempore cum!
-                  Qui necessitatibus ipsum nemo!</p>
-                <button id="blog-btn">Read More.</button>
-              </div>
-            </div>
+        <div class="footer-contact">
 
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
+          <h4 class="contact-title">hubungi kami </h4>
 
-            <div class="card">
-              <img src="./images/b3.png" alt="">
-              <div class="card-body">
-                <h3>Lorem, ipsum dolor.</h3>
-                <h5>albar faruq</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsam sed quod, hic unde tempore cum!
-                  Qui necessitatibus ipsum nemo!</p>
-                <button id="blog-btn">Read More.</button>
-              </div>
-            </div>
+          <p class="contact-text">
+            Jangan ragu untuk menghubungi dan menghubungi kami! !!
+          </p>
 
-          </div>
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+01123456790" class="contact-link">+6289-9999-999</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:info.tourly.com" class="contact-link">andika.com</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>tanah hitam padang panjang</address>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-form">
+
+          <p class="form-text">
+            Subscribe untuk info terbaru!!
+          </p>
+
+          <form action="" class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+            <button type="submit" class="btn btn-secondary">Subscribe</button>
+          </form>
 
         </div>
 
       </div>
-    </section>
-    <!-- blogs end -->
+    </div>
 
+    <div class="footer-bottom">
+      <div class="container">
 
+        <p class="copyright">
+          &copy; 2023 <a href="">rahmat andika</a>. pkk semester 2
+        </p>
 
+        <ul class="footer-bottom-list">
 
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
 
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
 
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
 
+        </ul>
 
-    <!-- footer start -->
-    <footer id="footer">
-      <div class="footer-logo text-center"><img src="./images/logo.png" alt=""></div>
-      <div class="socail-links text-center">
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-pinterest-p"></i>
       </div>
+    </div>
 
-      <div class="credits text-center">
-        Desain By <a href="#"> <span>Rahmat andika</span></a>
-      </div>
-
-      <div class="copyright text-center">
-        &copy; Copyright <strong> <span>Rahmat Andika</span></strong>. All Rights reserved
-      </div>
-
-
-    </footer>
-    <!-- footer end -->
-
-
-
-
-    <a href="#" class="arrow"><i><img src="./images/up-arrow.png" alt="" width="50px"></i></a>
+  </footer>
 
 
 
 
 
+  <!-- 
+    - #GO TO TOP
+  -->
 
-
-
-
-  </div>
-
-
-
-
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
 
 
 
 
 
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
 
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-  </script>
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
